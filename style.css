@@ -31,7 +31,7 @@ body {
 }
 
 img {
-    width: 55px;
+    width: 45px;
 }
 
 .blue, .green, .red, .hide, .empty, .image{
@@ -44,7 +44,6 @@ img {
     border-collapse: collapse;
     border-left: none;
     border-top: none;
-    outline-offset: 1px;
 }
 
 .red {
@@ -59,6 +58,35 @@ img {
     color: blue;
 }
 
-.hide{
-    background-color: black;
+
+/*.hide{
+    background-color: gray;
+    border-width: 1px;
+    border-style: inset;
+    border-color: white;
+    border-right:2px solid black;
+    border-bottom: 2px solid black;
+} */
+
+
+
+
+
+.z {
+    width: 35px;
+    height: 35px;
+    background-color: gray;
+    border-width: 1px;
+    border-style: inset;
+    border-color: white;
+    border-right:2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.z, .hide>.red{
+    position: absolute;
+}
+
+.z:hover{
+    opacity: 0%;
 }
