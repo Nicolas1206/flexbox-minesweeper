@@ -77,7 +77,7 @@ img {
     height: 35px;
     background-color: gray;
     border-width: 1px;
-    border-style: inset;
+    border-style: outset;
     border-color: white;
     border-right:2px solid black;
     border-bottom: 2px solid black;
@@ -90,3 +90,6 @@ img {
 .z:hover{
     opacity: 0%;
 }
+
+
+
