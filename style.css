@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'VT323', monospace;
+    font-size: 1.2em;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    background-color: grey;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px inset white;
+    background-color: lightgray;
+    
+    
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+img {
+    width: 55px;
+}
+
+.blue, .green, .red, .hide, .empty, .image{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px dotted black;
+    border-collapse: collapse;
+    border-left: none;
+    border-top: none;
+    outline-offset: 1px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.hide{
+    background-color: black;
+}
